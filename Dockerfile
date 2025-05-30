@@ -1,4 +1,4 @@
-FROM node:node:20 AS builder
+FROM node:20 AS builder
 WORKDIR /opt/server
 COPY package.json /opt/server/
 RUN npm install
